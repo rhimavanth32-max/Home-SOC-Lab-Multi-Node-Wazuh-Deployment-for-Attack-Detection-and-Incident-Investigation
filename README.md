@@ -8,7 +8,7 @@ A home Security Operations Center (SOC) lab built on Wazuh. The lab collects end
 flowchart LR
     subgraph EP["Monitored endpoints"]
         A["kakarot<br/>Kali Linux 2025.1<br/>192.168.245.129<br/>Wazuh agent 4.8.2"]
-        B["windows10<br/>: windows 10<br/>192.168.245.137<br/>Wazuh agent 4.8.2""]
+        B["windows10<br/>: windows 10<br/>192.168.245.137<br/>Wazuh agent 4.8.2"]
         C["TODO: third endpoint"]
     end
 
