@@ -11,7 +11,7 @@ flowchart LR
     subgraph EP["Monitored endpoints"]
         A["kakarot<br/>Kali Linux 2025.1<br/>192.168.245.129<br/>Wazuh agent 4.8.2"]
         B["anonymous<br/>windows10<br/>192.168.245.137<br/>Wazuh agent 4.8.2"]
-        C["wazuh-manager/wazuh-indexer/wazuh-dashboard<br/>ubuntu server<br/>192.168.245.136<br/>Wazuh agent 4.8.2"]
+        C["plan"]
     end
 
     subgraph WS["Wazuh stack"]
