@@ -2,8 +2,6 @@
 
 A home Security Operations Center (SOC) lab built on Wazuh. The lab collects endpoint telemetry, detects suspicious activity, and documents each investigation as a separate exercise.
 
-> Items marked `TODO` are placeholders. Replace them with your own details before publishing.
-
 ## Architecture
 
 ```mermaid
@@ -61,7 +59,7 @@ flowchart LR
 |---|---|---|---|
 | 1 | [File Integrity Monitoring](File-Integrity-Monitoring-Lab/README.md) | Syscheck | Done |
 | 2 | [dectecting network intrusion using suricata IDS]() | monitoring and give an alert if malicious traffic find in network | Done |
-| 3 |[Linux Command Auditing with auditd and Wazuh](Linux Command Auditing with auditd and Wazuh/README.md)| finding both legitimate and malicious command using auditd | Done |
+| 3 |[Linux Command Auditing with auditd and Wazuh]()| finding both legitimate and malicious command using auditd | Done |
 
 ## Skills demonstrated
 - Deploying and configuring Wazuh manager, indexer, dashboard, and agents
