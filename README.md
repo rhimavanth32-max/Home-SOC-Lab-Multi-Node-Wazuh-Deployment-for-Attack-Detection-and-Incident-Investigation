@@ -9,7 +9,7 @@ A home Security Operations Center (SOC) lab built on Wazuh. The lab collects end
 ```mermaid
 flowchart LR
     subgraph EP["Monitored endpoints"]
-        A["kakarot<br/>Kali Linux 2025.1<br/>192.168.245.129<br/>Wazuh agent 4.8.2"]
+        A["kakarot<br/>Kali Linux 2025.1 <br/>192.168.245.129<br/>Wazuh agent 4.8.2"]
         B["anonymous<br/>windows10<br/>192.168.245.137<br/>Wazuh agent 4.8.2"]
         C["plan"]
     end
@@ -61,7 +61,7 @@ flowchart LR
 |---|---|---|---|
 | 1 | [File Integrity Monitoring](File-Integrity-Monitoring-Lab/README.md) | Syscheck | Done |
 | 2 | [dectecting network intrusion using suricata IDS]() | monitoring and give an alert if malicious traffic find in network | Done |
-| 3 | TODO | TODO | Planned |
+| 3 |[Linux Command Auditing with auditd and Wazuh](Linux Command Auditing with auditd and Wazuh/README.md)| finding both legitimate and malicious command using auditd | Done |
 
 ## Skills demonstrated
 - Deploying and configuring Wazuh manager, indexer, dashboard, and agents
@@ -90,7 +90,9 @@ flowchart LR
 └── detecting network intrusion using suricata IDS/
     ├── README.md
     └── screenshots/
-
+└── Linux Command Auditing with auditd and Wazuh/
+    ├── README.md
+    └── screenshots/
 ```
 
 ## Author
